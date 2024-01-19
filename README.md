@@ -14,13 +14,13 @@
 To install `cs` with npm, run the following command in your project directory:
 
 ```sh
-npm install @your-username/cs
+npm install cs-shorthand
 ```
 
 Or with Yarn:
 
 ```sh
-yarn add @your-username/cs
+yarn add @cs-shorthand
 ```
 
 ### Using Bun
@@ -28,7 +28,7 @@ yarn add @your-username/cs
 To install `cs` with Bun, run:
 
 ```sh
-bun add @your-username/cs
+bun add cs-shorthand
 ```
 
 ## Usage 🛠
@@ -36,11 +36,8 @@ bun add @your-username/cs
 Firstly, require `cs` in your JavaScript file:
 
 ```javascript
-// For Node.js
-const cs = require('@your-username/cs');
-
 // For Bun or ES Modules
-import cs from '@your-username/cs';
+import cs from 'cs-shorthand';
 ```
 
 Now you can use `cs` just like you would use `console`:
@@ -63,5 +60,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-Happy coding! ✨ Remember, with `cs`, you're saving time one keystroke at a time! 
+Happy coding! ✨ 
 
